@@ -15,7 +15,7 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   # [アクション] タブからこのワークフローを手動で実行できます
-  workflow_dispatch:
+  workflow_dispatch:c
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 # ワークフローの実行は、順次または並行して実行できる 1 つ以上のジョブで構成されます。
@@ -44,7 +44,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v1
         with:
-          node-version: 14.16.1
+          node-version: 16
 
       # runners 依存関係のインストール
       - name: Install Dependencies
