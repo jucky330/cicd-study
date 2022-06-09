@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './nm_l_color.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          cicd study aaa
         </p>
         <a
           className="App-link"
